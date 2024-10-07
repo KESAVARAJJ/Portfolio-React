@@ -1,5 +1,6 @@
 import React from 'react';
-import ResumeImg from '../assets/resumeimg.jpeg';
+import resumeImg from '../assets/resumeimg.jpeg';
+;
 
 function Resume() {
 
@@ -9,7 +10,7 @@ function Resume() {
   return (
     <section id='resume'className='flex md:flex-row flex-col bg-primary px-5 pb-20'>
        <div className='py-5 md:w-1/2  flex justify-center md:justify-end'  >
-             <img  className='w-[400px]'src={ResumeImg} />
+             <img  className='w-[400px]'src={resumeImg} />
         </div>
         <div className='md:w-1/2 flex justify-center'>
             <div className='flex flex-col justify-center'>
