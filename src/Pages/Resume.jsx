@@ -1,7 +1,5 @@
 import React from 'react';
-import resumeImg from '../assets/resumeimg.jpeg';
-;
-
+import resumeImg from '../assets/resumeImg.jpeg';
 function Resume() {
 
   const config = {
